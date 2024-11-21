@@ -1,5 +1,5 @@
 {
-  "name": "hooks",
+  "name": "processor",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,8 @@
   "description": "",
   "dependencies": {
     "@prisma/client": "^5.22.0",
-    "@types/express": "^5.0.0",
-    "express": "^4.21.1",
-    "hooks": "file:",
-    "prisma": "^5.22.0"
+    "kafkajs": "^2.2.4",
+    "prisma": "^5.22.0",
+    "processor": "file:"
   }
 }
